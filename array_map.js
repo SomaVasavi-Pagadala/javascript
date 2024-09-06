@@ -33,16 +33,16 @@
 // //(0*1=0,1*2=2,2*3=6,3*4=12,4*5=20) 0 means index
 
 
-const products=[
+let products=[
     {
         name:'pc',   //object
         price:1000,
-        count:5
+        const:5
     },
     {
         name: 'desktop',
         price:1500,
-        count:2
+        const:2
 
     },
     {
@@ -51,7 +51,7 @@ const products=[
         const:10
     }
 ];
-const productsvalue=products.map(item => item.price*item.const);
+const productsvalue=products.map(item =>item.price*item.const);
 console.log(productsvalue);//total products
 //item =(pc,desltop,notepad)
                         //or
