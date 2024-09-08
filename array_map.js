@@ -33,36 +33,35 @@
 // //(0*1=0,1*2=2,2*3=6,3*4=12,4*5=20) 0 means index
 
 
-let products=[
-    {
-        name:'pc',   //object
-        price:1000,
-        const:5
-    },
-    {
-        name: 'desktop',
-        price:1500,
-        const:2
+// let products=[
+//     {
+//         name:'pc',   //object
+//         price:1000,
+//         const:5
+//     },
+//     {
+//         name: 'desktop',
+//         price:1500,
+//         const:2
 
-    },
-    {
-        name:'notepad',
-        price:500,
-        const:10
-    }
-];
-const productsvalue=products.map(item =>item.price*item.const);
-console.log(productsvalue);//total products
-//item =(pc,desltop,notepad)
-                        //or
-const productsvalue1=products.map(item => ({
-    name: item.name,
-    totalvalue:item.price*item.const}));
-console.log(productsvalue1);
+//     },
+//     {
+//         name:'notepad',
+//         price:500,
+//         const:10
+//     }
+// ];
+// const productsvalue=products.map(item =>item.price*item.const);
+// console.log(productsvalue);//total products
+// //item =(pc,desltop,notepad)
+//                         //or
+// const productsvalue1=products.map(item => ({
+//     name: item.name,
+//     totalvalue:item.price*item.const}));
+// console.log(productsvalue1);
 
 //string convert number
 
 const string=['1','2','3','4','5'];
-// const number=string.map(item =>number(item));
-const number=string.map(Number);
-console.log(number);
+const n=string.map(Number);//constructor
+console.log(n);
