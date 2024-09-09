@@ -7,19 +7,19 @@
 // Start and end position can be specified. If not, all elements will be filled.
    
 
-const number =[1,2,3,4,5]
-const num2=number.fill(0);
-console.log(number);
-console.log(num2);
+// const number =[1,2,3,4,5]
+// const num2=number.fill(0);
+// console.log(number);
+// console.log(num2);
 
-const numbers=[1,2,3,4,5];
-numbers.fill(0,1,4); //1to4 index will be change
-console.log(numbers);
+// const numbers=[1,2,3,4,5];
+// numbers.fill(0,1,4); //1to4 index will be change
+// console.log(numbers);
 
 
 function fillInNumbers(n){//n =length 
-    return Array(n).fill(0).map((_,index)=>index+1);//looping value
+    return Array(5).fill(1).map((_,index)=>index+1);//looping value
     //_callback secondvalue index
     //default indext start with 0
 }
-console.log(fillInNumbers(10));//10 example
+console.log(fillInNumbers(5));//10 example

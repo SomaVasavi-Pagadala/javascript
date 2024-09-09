@@ -63,5 +63,5 @@
 //string convert number
 
 const string=['1','2','3','4','5'];
-const n=string.map(Number);//constructor
+const n=string.map(Number);//constructor=numder
 console.log(n);
