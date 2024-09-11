@@ -3,13 +3,16 @@ number.pop();
 number.pop();
 number.pop();
 number.pop();
-console.log(number);
+console.log(number);//[1,2,3,4]
+                    //[1,2,3]
+                    //[1,2]
+                    //[1]
 
 
 
 const numbers=[1,2,3]
 const lastItem=numbers.pop();
-console.log(lastItem);
+console.log(lastItem);//3
 
 
 

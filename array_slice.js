@@ -10,14 +10,15 @@ const number3=number.slice(1)  //+ve
 // The slice() method selects from a given start, up to a (not inclusive) given end.
 
 // The slice() method does not change the original array.
-console.log(number);
-console.log(numbers);
-console.log(number1);
-console.log(number2);
-console.log(number3);
+console.log(number);//[ 1, 2, 3, 4, 5 ]
+console.log(numbers);//[ 2, 3, 4 ]
+console.log(number1);//[ 1, 2, 3, 4, 5 ]
+console.log(number2);//[ 2, 3, 4, 5 ]
+console.log(number3);//[ 2, 3, 4, 5 ]
 
 
 
 const participants=['vijay','roshan','ravanth','charan','jai']
 const winners=participants.slice(0,3)
 console.log(winners);
+//[ 'vijay', 'roshan', 'ravanth' ]

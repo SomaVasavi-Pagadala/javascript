@@ -18,11 +18,11 @@ console.log(total);
 //     console.log(total1);
 
 
-const numbers=[1,2,3,4,5,6,7]
+const numbers=[1,2,3,4,5,6,7]//28
 const total1=numbers.reduce(sum)
 function sum(accumulator,value) {  
 
 
     return accumulator+value; 
     }
-    console.log(total1);
+    console.log(total1);//28

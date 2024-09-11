@@ -8,7 +8,7 @@
         //     function double(value,index,arr) {
         //         return value*2;
         //     }
-        //     console.log(numbers);
+        //     console.log(numbers);//[1,2,3,4,5]
         //map() does not change the original array.
 
            //numbers double 
@@ -18,7 +18,7 @@
 //     return value*2;
 
 // }
-// console.log(numbersDouble);
+// console.log(numbersDouble);//[2,4,6,8,10]
 
 
 //multiply value by index
@@ -29,7 +29,7 @@
 // function multiply(value,index,array) {
 //     return value*index;
 // }
-// console.log(numbersDouble);
+// console.log(numbersDouble);//[0,2,6,12,20]
 // //(0*1=0,1*2=2,2*3=6,3*4=12,4*5=20) 0 means index
 
 
@@ -52,16 +52,19 @@
 //     }
 // ];
 // const productsvalue=products.map(item =>item.price*item.const);
-// console.log(productsvalue);//total products
+// console.log(productsvalue);//total products[5000,3000,5000]
 // //item =(pc,desltop,notepad)
 //                         //or
 // const productsvalue1=products.map(item => ({
 //     name: item.name,
 //     totalvalue:item.price*item.const}));
 // console.log(productsvalue1);
+//[{name:'pc', productsvalue:5000}
+// {name:'desktop', productsvalue:3000}
+// {name:'notpad', productsvalue:5000}]
 
 //string convert number
 
 const string=['1','2','3','4','5'];
-const n=string.map(Number);//constructor=numder
+const n=string.map(Number);//constructor=number
 console.log(n);

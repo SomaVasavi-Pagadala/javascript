@@ -3,10 +3,11 @@ const result=countries.join();
 const res=countries.join('-');
 const res1=countries.join(', ');
 const res2=countries.join('');
-console.log(result);
-console.log(res);
-console.log(res1);
-console.log(res2);
+console.log(result);//usa,india,europe
+console.log(res);//usa-india-europe
+
+console.log(res1);//usa, india, europe
+console.log(res2);//usaindiaeurope
 
 
 
