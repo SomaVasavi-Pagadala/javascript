@@ -1,16 +1,10 @@
 const num=[1,2,3,4,5];
-const res=num.every(positive)
-function positive(item) {
-    return item>0;
-}
+const res=num.every(item=>item>0)
 console.log(res);//true
 
 
 const ages=[19,2,22,14,66,43];
-const result=ages.every(checkage)
-function checkage(age) {
-    return age>18;
-}
+const result=ages.every(age=>age>18)//=>arow function
 console.log(result);//false
 
 

@@ -11,15 +11,11 @@ console.log(res2);
 
 //the array includes method it can find if an element is included inside an array 
 
-// const fruits=['apple','orange','mango'];
-// const res= fruits.includes('orange');
-// if (res) {//true
-//     console.log('yuppy!');//yuppy!
-    
-// }else{//false
-//     console.log("sad... let's buy an orange");
-    
-// }
+const fruits=['apple','orange','mango'];
+const res3=fruit=>fruits.includes(fruit);//fruit parameter
+console.log(res3('orange')?'yuppy!':"sad... let's buy an orange");
+//(the ternary operator condition ? expression_if_true : expression_if_false is used to print 'yuppy!' if the result is true,
+// or "sad... let's buy an orange" if the result is false.)
 
 
 // const fruits1=['apple','mango'];
