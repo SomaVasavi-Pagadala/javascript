@@ -35,20 +35,12 @@ number1.forEach((item,index,arr)=> {
 //The forEach() method is not executed for empty elements.
 let sum = 0;
 const number2 = [3,6,8,9, 4];
-number2.forEach(fn);
-
-function fn(item) {
-  sum =sum+ item;
-}
+number2.forEach(item=>sum+=item);
 console.log(sum);//30
 
 
 
-let product=1;
-const numbers = [2,4,7,9];
-numbers.forEach(fn1)
-
-function fn1(item, index, arr) {
-  product = item * 10;
-}
-console.log(product);//90
+let product = 1;
+const numbers = [2, 4, 7, 9];
+numbers.forEach(item => product *= item);
+console.log(product); // 504

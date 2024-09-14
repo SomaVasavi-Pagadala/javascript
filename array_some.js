@@ -1,16 +1,10 @@
-const ages=[3,4,11,23,18,20];
-const res=ages.some(adult);
-function adult(age) {
-    return age>18;
-}
+const ages=[34,44,9,23,18,20];
+const res=ages.some(age=>age>18);
 console.log(res);//true
   
 
 const num=[1,2,3,4];
-const res1=num.some(greaterthanFour);
-function greaterthanFour(item) {
-    return item > 4;
-}
+const res1=num.some(item=>item>4);
 console.log(res1);//false
 
 

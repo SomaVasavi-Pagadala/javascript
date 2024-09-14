@@ -1,36 +1,15 @@
-        //  const numbers=[1,2,3,4,5];
-        //  numbers.map(double)   
-        //   //map(callbackfn: (value: number, index: number, array: number[]) => any, thisArg?: any): any[]
-        //     //A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.Calls a defined callback function on each element of an array, and returns an array that contains the results.
-        
-        
-        
-        //     function double(value,index,arr) {
-        //         return value*2;
-        //     }
-        //     console.log(numbers);//[1,2,3,4,5]
-        //map() does not change the original array.
-
-           //numbers double 
-// const numbers=[1,2,3,4,5];
-// const numbersDouble=numbers.map(double);//create new array
-// function double(value,index,arr) {
-//     return value*2;
-
-// }
-// console.log(numbersDouble);//[2,4,6,8,10]
+const nums=[1,2,3,4,5];
+ const doublenumbers=nums.map((nums)=>nums*2);//by using callbackfunction
+ console.log(doublenumbers);//[ 2, 4, 6, 8, 10 ]
 
 
 //multiply value by index
   
 
-// const numbers=[1,2,3,4,5];
-// const numbersDouble=numbers.map(multiply);//create new array
-// function multiply(value,index,array) {
-//     return value*index;
-// }
-// console.log(numbersDouble);//[0,2,6,12,20]
-// //(0*1=0,1*2=2,2*3=6,3*4=12,4*5=20) 0 means index
+const numbers=[1,2,3,4,5];
+const numbersDouble=numbers.map((value,index)=>value*index);//create new array
+console.log(numbersDouble);//[0,2,6,12,20]
+//(0*1=0,1*2=2,2*3=6,3*4=12,4*5=20) 0 means index
 
 
 // let products=[
