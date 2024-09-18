@@ -1,12 +1,12 @@
 const string="how are you doing today";
 const s1=string.split(" ");
-console.log(s1);
+console.log(s1);//[ 'how', 'are', 'you', 'doing', 'today' ]
    
 
 
 const start1="good morning all of you";
 const s2=start1.split(" ",3);
-console.log(s2);
+console.log(s2);//[ 'good', 'morning', 'all' ]
 
 
 

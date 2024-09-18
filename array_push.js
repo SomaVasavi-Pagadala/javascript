@@ -1,5 +1,5 @@
 const number=[1,2,3];
-number.push(4);
+number.push(0);
 console.log(number);//[1,2,3,4]
 
 const number1=[1,2,3];

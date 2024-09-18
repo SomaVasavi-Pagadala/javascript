@@ -17,4 +17,4 @@ const total1=numbers.reduce((accumulator,value)=>accumulator+value,0);
 
 // The reduce() method does not execute the function for empty array elements.
 
-// The reduce() method does not change the original array.
+// The reduce() method does not change the original array.  

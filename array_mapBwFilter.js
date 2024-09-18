@@ -10,6 +10,7 @@ console.log(doublenumbers);//[ 2, 4, 6, 8, 10 ]
 
 
 //filter
+
  const evenNum=nums.filter((nums)=>nums%2==0);
  console.log(evenNum);//[ 2, 4 ]
 

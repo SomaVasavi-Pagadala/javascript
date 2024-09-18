@@ -7,9 +7,9 @@
 // number.fill(1);//all item is one
 // console.log(number);//[1,1,1,1,1]
  
-const number=[1,2,3,4,5];
-const fill1=number.map(()=>1);
-console.log(fill1);
+// const number=[1,2,3,4,5];
+// const fill1=number.map(()=>1);
+// console.log(fill1);//[1,1,1,1,1]
 
 
 
@@ -18,10 +18,10 @@ console.log(fill1);
 // Start and end position can be specified. If not, all elements will be filled.
    
 
-// const number =[1,2,3,4,5]
-// const num2=number.fill(0);
-// console.log(number);//[0,0,0,0,0]
-// console.log(num2);//[0,0,0,0,0]
+const number =[1,2,3,4,5]
+const num2=number.fill(0);
+console.log(number);//[0,0,0,0,0]
+console.log(num2);//[0,0,0,0,0]
 
 // const numbers=[1,2,3,4,5];
 // numbers.fill(0,1,4); //1to4 index will be change

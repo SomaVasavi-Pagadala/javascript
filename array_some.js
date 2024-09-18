@@ -3,6 +3,7 @@ const res=ages.some(age=>age>18);
 console.log(res);//true
   
 
+
 const num=[1,2,3,4];
 const res1=num.some(item=>item>4);
 console.log(res1);//false

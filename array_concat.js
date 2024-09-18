@@ -17,7 +17,7 @@ const d1=[7,8,9];
 
 //const c1=a1.concat();//[a1.concat  create a sgallow cpy of the array]
 
-//console.log(c1);//[1,2,3]
+//console.log(c1);//[1,2,3]  
 
 // c1.push(4);
 // console.log(c1);//[1,2,3,4]

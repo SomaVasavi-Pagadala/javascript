@@ -46,7 +46,7 @@ console.log(numbersDouble);//[0,2,6,12,20]
 
 const string=['1','2','3','4','5'];
 const n=string.map(Number);//constructor=number
-console.log(n);
+console.log(n);//[ 1, 2, 3, 4, 5 ]
 // map() creates a new array from calling a function for every array element.
 
 // map() does not execute the function for empty elements.
