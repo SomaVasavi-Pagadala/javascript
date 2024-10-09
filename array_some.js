@@ -9,6 +9,16 @@ const res1=num.some(item=>item>4);
 console.log(res1);//false
 
 
+const array = [1, 3, 5, 6];
+
+// Checks whether an element is even
+const even = (element) => {
+  console.log(element);
+  return element % 2 === 0;
+}
+
+console.log(array.some(even));
+
 
 
 // The some() method checks if any array elements pass a test (provided as a callback function).

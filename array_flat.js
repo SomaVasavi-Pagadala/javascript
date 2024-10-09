@@ -15,3 +15,5 @@ console.log(res2);//[ 1, 2, 3, 4, [ 5 ] ]
 const array2=[1,[2,[3,[4,[5]]]]];
 const res3=array2.flat(Infinity);
 console.log(res3);//[ 1, 2, 3, 4, 5 ] 
+
+//The flat() method concatenates sub-array elements.

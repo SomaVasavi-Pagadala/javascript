@@ -4,7 +4,7 @@ console.log(res);//2 index
 
 const ages=[2,29,31,18];
 const res1=ages.findIndex(age=>age>18);
-console.log(res1);
+console.log(res1);//1 index
 
 
 

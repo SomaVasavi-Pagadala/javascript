@@ -9,7 +9,11 @@ const total1=numbers.reduce((accumulator,value)=>accumulator+value,0);
     console.log(total1);//28
 
 
-
+    const a=[1,2,3,4,5];
+    const res=a.reduce((accumulater,value)=>{
+      return  accumulater+value;
+    },0)
+    console.log(res);//15
 
 //  The reduce() method executes a reducer function for array element.
 

@@ -52,3 +52,35 @@ console.log(n);//[ 1, 2, 3, 4, 5 ]
 // map() does not execute the function for empty elements.
 
 // map() does not change the original array.
+
+
+//object
+// {
+// 	property1 : property1value,
+// 	property2 : property2value,
+// 	property3 : property3value,
+
+// }
+
+// { 
+// 	key: 1, 
+//     value: 10 
+// }
+
+// {
+// a : 10,
+// b : 20
+// }
+
+const kvArray = [
+  { key: 1, value: 10 }, // object1
+  { key: 2, value: 20 }, // object2
+  { key: 3, value: 30 }, // object3
+];
+
+const res = kvArray.map((e) => {
+  console.log(e)
+  return {[e.key] :  e.value}
+})
+
+console.log(res)

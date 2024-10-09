@@ -26,4 +26,4 @@
 const friends=['ravi','abhi','naveen','kumar','jai','abhi'];
 const res3= Array.from(new Set(friends));
 console.log(res3);
-//[ 'ravi', 'abhi', 'naveen', 'kumar', 'jai' ]
+//[ 'ravi', 'abhi', 'naveen', 'kumar', 'jai' ]  
